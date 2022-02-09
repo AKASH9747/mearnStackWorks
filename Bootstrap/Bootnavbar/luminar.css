@@ -1,0 +1,75 @@
+.d-block{
+    height: 700px;
+  }
+  .about{
+    float: left;
+  }
+  .b{
+    float: left;
+  }
+  /* button{
+    border-radius: 20px;
+    height: 51px;
+  } */
+  /* .img1{
+    
+    height: fit-content;
+  } */
+  .L{
+   border:  2px solid #5e068a;
+   border-radius: 50px;
+   font-weight: 600;
+   padding: 16px 27px;
+   background-color: #5e068a;
+   color: white;
+   font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
+  }
+  .L:hover{
+    background-color: white;
+    color: rgb(139, 10, 139);
+  }
+  .V{
+    border:  2px solid #5e068a;
+   border-radius: 50px;
+   font-weight: 600;
+   padding: 16px 27px;
+   background-color: #5e068a;
+   color: white;
+   font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
+  }
+  .V:hover{
+    background-color: #621f83 ;
+    color: rgb(39, 4, 39);
+  }
+  .img2{
+    height: 300px;
+  }
+  .img1{
+    height: 490px;
+  }
+  .navbar{
+    background-color: white;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1;  */
+  }
+  .course{
+    color: #5e068a;
+  }
+.bookk{
+  /* background-image: url(./images/img2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.box{
+  border: 1px solid;
+  box-shadow: 5px 10px white;
+}
+.card:hover{
+
+  border: 1px solid;
+  box-shadow: 5px 10px gray;
+} 

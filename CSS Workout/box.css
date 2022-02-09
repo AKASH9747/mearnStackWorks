@@ -1,0 +1,17 @@
+#box1{
+    background-color: darkgrey;
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 50px;
+    border: rgb(22, 108, 165) 5px solid;
+
+}
+#box2{
+    background-color: darkorange;
+    width: 200px;
+    height: 200px;
+    margin-left: 49%;
+    margin-top: -208px;
+    border: rgb(206, 19, 212) 5px solid;
+}

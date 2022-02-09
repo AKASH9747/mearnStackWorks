@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2a30140588.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="./alhlet.css">
+</head>
+<body>
+    <div class="container w-50">
+        <h1 class="text-center">ATHLETE REGISTRATION FORM</h1>
+        <!-- <div class="border m-2"> -->
+            <p class="text-center">Thank you for signing up at our club.please fill in your information and we will contact you shortly to comple your membership <p>
+        <!-- </div> -->
+         
+        <form action="" class="border p-3">
+            <div class="p-1">
+                <label for="aname " class=" mb-2">Athlete's Name:</label>
+            </div>
+    
+                <div>
+                    <input type="text" placeholder="First" class="b form-control w-25 mb-2 me-4 "  id="aname">
+                    <input type="text" name="" id="aname"placeholder="Last" class="c form-control w-25 mb-2">
+    
+                </div>
+            <!-- DOB -->
+            <div class="p-1">
+                <label for="dob" class="mb-2">DOB:</label>
+                <input type="date" id="dob" class="mb-2 form-control w-50">    
+            </div>
+            <!-- Email -->
+            <div class="p-1">
+                <label for="mail" class="mb-2">Email:</label>
+                <input type="email" id="mail" class="mb-2 form-control w-50">    
+            </div>
+            <!-- Phone -->
+            <div class="p-1">
+                <label for="phone" class="mb-2">Phone:</label>
+                <input width="" id="phone" type="text" placeholder="### ### ####" class="mb-2 form-control w-50">    
+            </div>
+            <!-- Mailing address -->
+            <div class="p-1">
+                <label for="ma" class="mb-2 mb-2">Mailing Address:</label><br>
+                 <textarea name="" id="ma" cols="30" rows="1" placeholder="Street Address" class="mb-2"></textarea>
+            </div>
+   
+                <div>
+                    <input type="text"placeholder="City" class="w mb-2 form-control w-25 me-3">  
+                    <input type="text" name="" id=""placeholder="Region" class="mb-2 form-control w-25"> 
+                    <input type="text" name="" id=""placeholder="Postal/Zip Code" class="pz mb-2 form-control w-25 me-5">
+    
+                </div>
+                <!-- <input type="text" name="" id="" placeholder="Street Address" class="mb-2 form-control">   -->
+            <div class="p-1">
+                <select name="" id="" class="mb-2">
+                    <option value="" >Romania</option>
+                    <option value="" >London</option>
+                </select>
+            </div><br>
+            <!-- Gender -->
+            <div class="">
+                <label for="" class="mb-2 ">Gender:</label><br>
+                <input type="radio" name="radio" class=" ps-5" ><label for="" class="ps-2 pe-3">Male</label>
+                <input type="radio" name="radio"><label for="" class="ps-2">Female</label>
+            </div>
+            <!-- Height & Weight -->
+            <div class="p-1">
+                <label for="Height" class="mb-2 me-5 " id="h" >Height:</label>
+                <label for="Weight" class="mb-2 ms-5 ps-5" id="w">Weight:</label>
+            </div>
+
+                <div>
+                    <input type="text" id="Height" class="mb-2 form-control w-25 me-5">
+                    <input type="text" id="weight" class="mb-2 form-control w-25 ">
+                </div>
+
+            <!-- illness -->
+            <div class="p-1 text-center">
+                <label for="">Does the athlete have a history of chronic illeness?</label><br>
+                <input type="radio" name="illness" id="" class="ms-3 mb-2 mt-3"><label for="">Yes</label>
+                <input type="radio" name="illness" id="" class="ms-3 mb-2 mt-3"><label for="">No</label>
+            </div>
+            <!-- Allergies -->
+            <div class="p-1 text-center">
+                <label for="">Does the athlete have any allergies?</label><br>
+                <input type="radio" name="allergies" id="" class="ms-3 mb-2 mt-3"><label for="">Yes</label>
+                <input type="radio" name="allergies" id="" class="ms-3 mb-2 mt-3"><label for="">No</label>
+            </div>
+            <!-- submit -->
+            <div class="p-1">
+                <button class="btn btn-success w-100">submit</button>
+            </div>
+        </form>            
+    </div>
+</body>
+</html>
