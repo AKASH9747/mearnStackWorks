@@ -1,0 +1,7 @@
+<div *ngIf="item" class="container" style="height: auto;">
+    <div style="border: solid 5px white; text-align: center;">
+        <p style="color: white;">Are you sure want to delete this account ?</p>
+        <button (click)="delete()" class="btn btn-danger">YES</button>&nbsp;
+        <button (click)="cancel()" class="btn btn-success">NO</button>
+    </div>
+</div>

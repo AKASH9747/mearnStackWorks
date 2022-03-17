@@ -1,0 +1,21 @@
+<nav class="navbar navbar-light bg-dark ">
+    <a class="navbar-brand  " href="#" style="color:rgb(85, 98, 237);"><b>&#169; HAFC Bank Pvt.Ltd </b></a>
+    <span class="quote text-light">Giving you freedom...</span>
+</nav>
+<div class="container mt-5">
+    <table class="table table-secondary table-bordered table-striped">
+        <thead class="">
+            <tr>
+                <th>Amount</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of transcations">
+                <td>{{t.amt}}</td>
+                <td>{{t.type}}</td>
+
+        </tbody>
+    </table>
+    <a routerLink="/dashboard"></a>
+</div>

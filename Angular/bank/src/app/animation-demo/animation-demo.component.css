@@ -1,0 +1,18 @@
+.animation{
+align-items: center;
+margin-left: 36%;
+
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: aqua;
+}
+.button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
